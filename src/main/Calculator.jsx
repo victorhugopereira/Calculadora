@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Calculador.css';
+import './Calculator.css';
 
 import Button from '../components/Button'
 import Display from '../components/Display'
@@ -12,7 +12,7 @@ const initialState={
     current: 0
 }
 
-export default class Calculador extends Component{
+export default class Calculator extends Component{
 
     state = { ...initialState }
     
