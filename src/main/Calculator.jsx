@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Calculator.css';
+import './Calculador.css';
 
 import Button from '../components/Button'
 import Display from '../components/Display'
@@ -12,7 +12,7 @@ const initialState={
     current: 0
 }
 
-export default class Calculator extends Component{
+export default class Calculador extends Component{
 
     state = { ...initialState }
     
@@ -75,7 +75,7 @@ export default class Calculator extends Component{
 
     render(){
         return(
-            <div className="Calculator">
+            <div className="Calculador">
                 <Display value={this.state.displayValue} />
                 <Button label="AC" click={this.clearMemory} triple />
                 <Button label="/" click={this.setOperation} operation/>
