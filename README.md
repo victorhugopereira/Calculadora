@@ -19,7 +19,7 @@ Usei a linguagem JSX para apreder mais sobre a liguagem e suas regras
 ## Como roda o projeto
 1º- clone o projeto em sua maquina
 
-2º- abra o terminal e nevague até o local da pasta que esta a calculadora. 
+2º- abra o terminal e navegue até o local da pasta que esta a calculadora. 
 
 3º- Instale as dependências com o comando npm i 
 
